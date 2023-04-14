@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  #root * {
+          /* border:.5px solid red;          */
+  }
+
+  .nav-item{
+    @apply text-white w-3/4 hover:bg-slate-700 rounded-md px-6 py-3 shadow-md
+  }
+
+  .profil-item{
+    @apply flex h-[6.5vh] px-10 border-b border-black items-center
+  }
+}
